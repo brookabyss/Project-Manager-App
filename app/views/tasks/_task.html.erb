@@ -24,7 +24,7 @@
     </div>
     <div class="trash">
       <%= link_to project_task_path(@project,task.id), method: :delete, data: { confirm: "Are you sure?" } do %>
-      <i class="fa fa-check"></i>
+      <i class="fa fa-trash"></i>
       <% end %>
     </div>
   <% end %>
